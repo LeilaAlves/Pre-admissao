@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Pré-admissão</title>
+</head>
+
+<body>
+
+<figure><img src="../teste/logo lab.jpeg" alt="logoLaboratoria"></figure>
+
+<div class="boas-vindas">
+    <h1>TRIVIA GEOGRÁFICA</h1>
+    <p class="introdução" id ="saudações"></p>
+    <p class = "introdução" id = "cancelGame"></p>
+</div>
+
+
+<div>
+    <img src="../teste/lab.jpeg" alt="imagemAluna">
+    <div class="caixas">
+    <h1>RESPOSTAS CERTAS</h1>
+    <p id="correta1"></p>   <p id= "correta2"></p> <p id= "correta3"></p>
+    </div>
+
+    <div class="caixas">
+    <h1>RESPOSTAS ERRADAS</h1>
+    <p id="falsa1"></p>   <p id= "falsa2"></p> <p id= "falsa3"></p>
+    </div>
+</div>
+
+<div class="botãoFinal">
+        <input type="button" value="Jogar Novamente!" onclick="location.reload()" class="recomeçar">
+</div>
+    <script src="main.js"></script>  
+</body>
+</html>
+
+<!--Mostrar uma tela de boas-vindas na qual se peça, através de prompt, o nome do usuário 
+    antes de começar a prova.-->
+<!--Mostrar uma tela na qual o usuário pode escolher se quer mesmo dar início a prova ou não. 
+    Caso ele não deseje iniciar, o fluxo deve ser encerrado. Caso ele queira, seguirá para a 
+    próxima etapa, descrita no item 3-->
+<!--Mostrar, através de prompt, a pergunta 1 com alternativas. O usuário responde e depois é 
+    apresentada a pergunta 2 e depois a 3.-->
+
+    <!--O nome da pessoa deve ser impresso na tela;
+As respostas corretas e erradas devem ser impressas na tela em caixas separadas, 
+exibidas lado a lado.-->
